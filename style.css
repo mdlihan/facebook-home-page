@@ -1,0 +1,283 @@
+.facebook{
+    display: flex;
+}
+body{
+    height: 100vh;
+}
+
+.lock:focus{
+    color: rgb(63, 146, 241);
+}
+#search{
+    border: none;
+    background-color: rgb(224, 228, 230);
+    border-radius: 25px;
+    padding: 6px;
+    background-image:url(search.png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+    background-size: 1.4rem;
+    font-size: .8rem;
+    width: 11rem;
+}
+#icon{
+   width: 5rem;
+   font-weight: bold;
+}
+.text-center a{
+    color: rgb(48, 47, 47);
+    text-decoration: underline;
+}
+.secondary:hover{
+    background-color: rgb(192, 192, 192);
+}
+.secondary:focus{
+    color: rgb(19, 125, 247);
+}
+.me{
+    color: black;
+    background-color: rgb(194, 193, 193);
+}
+.i{
+ color: white;
+ background-color: rgb(194, 193, 193);
+}
+.me:hover{
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
+.i:hover{
+    color: white;
+    background-color: rgb(168, 168, 168);
+}
+
+
+header{
+    background-color: white;
+    box-shadow: 1px .5px 4px rgb(175, 175, 175);
+    padding-top: 1px;
+    padding-right: 10px;
+    width: 100%;
+ 
+}
+
+/* main :start */
+
+.top{
+  padding-top: 4rem;
+}
+main{
+    background-color: rgb(235, 235, 235);
+    margin-top: 1px;
+
+}
+.plus{
+   background-color: rgb(200, 227, 250);
+   align-items: center;
+   margin-top: 8px;
+   margin-left: 4px;
+   padding: 1rem;
+   border-radius: 50%;
+}
+.flex{
+   float: left;
+}
+.center{
+  float: left;
+}
+.radious{
+    border-radius: 10px;
+    box-shadow: 1px .5px .9px gray;
+    padding: 5px;
+    height: 4.5rem;
+}
+.span{
+    margin-top: 5px;
+}
+.shado:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    height: 4rem;
+}
+/* mindjon start */
+.lihan{
+    height: 3rem;
+    width: 2.9rem;
+    border-radius: 50px;  
+}
+.lihan-write{
+    background-color: rgb(241, 241, 241);
+    padding: 8px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 3px;
+    color: rgb(80, 79, 79);
+    width: 100%;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .4s;
+}
+.lihan-write:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.mindjon{
+    border-radius: 15px;
+    margin-left: 5.5rem;
+    width: 80%;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 8px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.flot{
+    float: right;
+}
+.emoje{
+    font-size: 1.3rem;
+}
+/* mindjon :end */
+
+
+/* Sponsored :start */
+.img1{
+    height: 6rem;
+    width: auto;
+    border-radius: 10px;
+}
+.img2{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 10px;
+}
+.photo2{
+    display: flex;
+}
+.my{
+    height: 2.5rem;
+    width: 17rem;
+}
+.my1{
+    height: 2.5rem;
+    width: 17rem;
+}
+.my:hover{
+    background-color: rgb(219, 218, 218);
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 17rem;
+    cursor: pointer;
+}
+.my1:hover{
+    background-color: rgb(219, 218, 218);
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 17rem;
+    cursor: pointer;
+}
+
+.text{
+   margin-left: 2.5rem;
+   transition: .3s;
+   padding: 3px;
+}
+.text:hover{
+    background-color: gray;
+   border-radius: 6px;
+}
+.Delete{
+    color: black;
+    background-color: rgb(187, 187, 187);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1rem;
+    width: 5.5rem;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    padding: 3.5rem 5px 4px 6rem;
+    border-radius: 10px;
+    transition: .3s;
+}
+.flex:hover{
+    background-color: rgb(207, 206, 206);
+}
+.Delete:hover{
+    color: black;
+}
+.confarm{
+    background-color: rgb(57, 131, 241);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5.5rem;
+}
+.mt{
+    margin-top: 6.7rem;
+}
+.m{
+    margin-left: 8rem;
+    padding: 8px;
+    transition: .3s;
+}
+.m:hover{
+    background-color: rgb(197, 196, 196);
+    border-radius: 50px;
+}
+.o{
+    display: flex;
+}
+.le{
+    padding-left: 24rem;
+}
+.r{
+    border: none;
+}
+.p{
+    padding: 8px;
+ transition: .3s;
+}
+.p:hover{
+    background-color: rgb(197, 196, 196);
+    border-radius: 50px;
+}
+.card{
+    padding: .5rem;
+}
+.bot{
+    display: flex;
+    padding: 8px;
+    width: 95%;
+}
+.bot:hover{
+    background-color: rgb(182, 179, 179);
+    border-radius: 10px;
+}
+.s{
+    background-color: rgb(201, 197, 197);
+    padding: 7px;
+    border-radius: 50px;
+}
+.t{
+  margin-left: 15rem;
+  color:black;
+  background-color: gray;
+  padding: .5rem .7rem;
+ border-radius: 60px;
+}
+.scrall{
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/* Sponsored :end */
+/* main end */
